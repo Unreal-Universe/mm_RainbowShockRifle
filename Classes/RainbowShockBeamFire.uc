@@ -126,16 +126,16 @@ Function SetNewDamage(byte BounceNum)
 
 defaultproperties
 {
-     RainbowBeamEffectClass=Class'tk_RainbowShockRifle.RainbowShockBeamEffect'
-     RainbowBeamEffectClassChild=Class'tk_RainbowShockRifle.RainbowShockBeamEffectChild'
+     RainbowBeamEffectClass=Class'mm_RainbowShockRifle.RainbowShockBeamEffect'
+     RainbowBeamEffectClassChild=Class'mm_RainbowShockRifle.RainbowShockBeamEffectChild'
      DampeningFactor=0.150000
      BounceMaxNum=2
-     DamageType=Class'tk_RainbowShockRifle.DamTypeRainbowShockBeam'
+     DamageType=Class'mm_RainbowShockRifle.DamTypeRainbowShockBeam'
      DamageMin=30
      DamageMax=30
      TraceRange=40000.000000
      Momentum=100000.000000
-     AmmoClass=Class'tk_RainbowShockRifle.RainbowShockAmmo'
-     FlashEmitterClass=Class'tk_RainbowShockRifle.RainbowShockBeamMuzFlash'
+     AmmoClass=Class'mm_RainbowShockRifle.RainbowShockAmmo'
+     FlashEmitterClass=Class'mm_RainbowShockRifle.RainbowShockBeamMuzFlash'
      aimerror=600.000000
 }

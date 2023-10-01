@@ -22,6 +22,6 @@ defaultproperties
      mColorRange(1)=(B=200,G=200,R=200)
      bHighDetail=True
      LifeSpan=2.000000
-     Skins(0)=Texture'tk_RainbowShockRifle.RainbowShockRifle.RainbowFlare'
+     Skins(0)=Texture'mm_RainbowShockRifle.RainbowShockRifle.RainbowFlare'
      Style=STY_Additive
 }

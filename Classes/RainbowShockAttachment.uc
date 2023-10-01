@@ -52,8 +52,8 @@ simulated event ThirdPersonEffects()
 
 defaultproperties
 {
-     MuzFlashClass=Class'tk_RainbowShockRifle.RainbowShockProjMuzFlash3rd'
-     ReSkin=FinalBlend'tk_RainbowShockRifle.RainbowShockRifle.RainBow5'
+     MuzFlashClass=Class'mm_RainbowShockRifle.RainbowShockProjMuzFlash3rd'
+     ReSkin=FinalBlend'mm_RainbowShockRifle.RainbowShockRifle.RainBow5'
      LightType=LT_Steady
      LightEffect=LE_NonIncidence
      LightHue=200
@@ -65,5 +65,5 @@ defaultproperties
      RelativeLocation=(X=-3.000000,Y=-5.000000,Z=-10.000000)
      RelativeRotation=(Pitch=32768)
      Skins(0)=Texture'UT2004Weapons.NewWeaps.ShockRifleTex0'
-     Skins(1)=FinalBlend'tk_RainbowShockRifle.RainbowShockRifle.RainbowGooFb'
+     Skins(1)=FinalBlend'mm_RainbowShockRifle.RainbowShockRifle.RainbowGooFb'
 }

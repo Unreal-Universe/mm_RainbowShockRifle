@@ -3,7 +3,7 @@ class RainbowShockAmmoPickup extends UTAmmoPickup;
 defaultproperties
 {
      AmmoAmount=10
-     InventoryType=Class'tk_RainbowShockRifle.RainbowShockAmmo'
+     InventoryType=Class'mm_RainbowShockRifle.RainbowShockAmmo'
      PickupMessage="You picked up a Rainbow Shock Core."
      PickupSound=Sound'PickupSounds.ShockAmmoPickup'
      PickupForce="ShockAmmoPickup"

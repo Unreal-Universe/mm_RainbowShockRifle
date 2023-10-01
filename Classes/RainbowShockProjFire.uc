@@ -27,12 +27,12 @@ defaultproperties
      FireSound=SoundGroup'WeaponSounds.ShockRifle.ShockRifleAltFire'
      FireForce="ShockRifleAltFire"
      FireRate=0.600000
-     AmmoClass=Class'tk_RainbowShockRifle.RainbowShockAmmo'
+     AmmoClass=Class'mm_RainbowShockRifle.RainbowShockAmmo'
      AmmoPerFire=2
      ShakeRotMag=(X=60.000000,Y=20.000000)
      ShakeRotRate=(X=1000.000000,Y=1000.000000)
      ShakeRotTime=2.000000
-     ProjectileClass=Class'tk_RainbowShockRifle.RainbowShockProjectile'
+     ProjectileClass=Class'mm_RainbowShockRifle.RainbowShockProjectile'
      BotRefireRate=0.350000
-     FlashEmitterClass=Class'tk_RainbowShockRifle.RainbowShockProjMuzFlash'
+     FlashEmitterClass=Class'mm_RainbowShockRifle.RainbowShockProjMuzFlash'
 }

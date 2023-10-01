@@ -8,13 +8,13 @@ simulated event PostBeginPlay()
 
     if (Level.NetMode != NM_DedicatedServer)
     {
-        Spawn(Class'tk_RainbowShockRifle.RainbowShockComboExpRing');
-        Flare = Spawn(Class'tk_RainbowShockRifle.RainbowShockComboFlare');
-        Spawn(Class'tk_RainbowShockRifle.RainbowShockComboCore');
-        Spawn(Class'tk_RainbowShockRifle.RainbowShockComboSphereDark');
-        Spawn(Class'tk_RainbowShockRifle.RainbowShockComboVortex');
-        Spawn(Class'tk_RainbowShockRifle.RainbowShockComboWiggles');
-        Spawn(Class'tk_RainbowShockRifle.RainbowShockComboFlash');
+        Spawn(Class'mm_RainbowShockRifle.RainbowShockComboExpRing');
+        Flare = Spawn(Class'mm_RainbowShockRifle.RainbowShockComboFlare');
+        Spawn(Class'mm_RainbowShockRifle.RainbowShockComboCore');
+        Spawn(Class'mm_RainbowShockRifle.RainbowShockComboSphereDark');
+        Spawn(Class'mm_RainbowShockRifle.RainbowShockComboVortex');
+        Spawn(Class'mm_RainbowShockRifle.RainbowShockComboWiggles');
+        Spawn(Class'mm_RainbowShockRifle.RainbowShockComboFlash');
     }
 }
 

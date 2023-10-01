@@ -20,6 +20,6 @@ defaultproperties
      bDynamicLight=True
      bHighDetail=True
      LifeSpan=0.300000
-     Skins(0)=Texture'tk_RainbowShockRifle.RainbowShockRifle.RainbowComboFlash'
+     Skins(0)=Texture'mm_RainbowShockRifle.RainbowShockRifle.RainbowComboFlash'
      Style=STY_Translucent
 }

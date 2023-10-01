@@ -21,7 +21,7 @@ static function IncrementKills(Controller Killer)
 
 defaultproperties
 {
-     WeaponClass=Class'tk_RainbowShockRifle.RainbowShockRifle'
+     WeaponClass=Class'mm_RainbowShockRifle.RainbowShockRifle'
      DeathString="%o couldn't avoid the blast from %k's Rainbow shock combo."
      FemaleSuicide="%o made a tactical error with her Rainbow shock combo."
      MaleSuicide="%o made a tactical error with his Rainbow shock combo."

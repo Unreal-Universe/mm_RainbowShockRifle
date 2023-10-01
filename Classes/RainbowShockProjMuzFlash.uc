@@ -29,6 +29,6 @@ defaultproperties
      mNumTileColumns=2
      mNumTileRows=2
      mMeshNodes(0)=StaticMesh'XEffects.MinigunMuzFlash1stMesh'
-     Skins(0)=FinalBlend'tk_RainbowShockRifle.RainbowShockRifle.RainbowMuzFlash1stFB'
+     Skins(0)=FinalBlend'mm_RainbowShockRifle.RainbowShockRifle.RainbowMuzFlash1stFB'
      Style=STY_Additive
 }

@@ -15,6 +15,6 @@ defaultproperties
      mGrowthRate=100.000000
      mAttenKa=0.000000
      bHighDetail=True
-     Skins(0)=Texture'tk_RainbowShockRifle.RainbowShockRifle.RainbowCore'
+     Skins(0)=Texture'mm_RainbowShockRifle.RainbowShockRifle.RainbowCore'
      Style=STY_Additive
 }

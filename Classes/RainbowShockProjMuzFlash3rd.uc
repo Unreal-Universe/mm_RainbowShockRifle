@@ -31,6 +31,6 @@ defaultproperties
      mAttenKa=0.000000
      mRandTextures=True
      mMeshNodes(0)=StaticMesh'XEffects.MinigunFlashMesh'
-     Skins(0)=FinalBlend'tk_RainbowShockRifle.RainbowShockRifle.RainbowMuzFlash3rdFB'
+     Skins(0)=FinalBlend'mm_RainbowShockRifle.RainbowShockRifle.RainbowMuzFlash3rdFB'
      Style=STY_Additive
 }

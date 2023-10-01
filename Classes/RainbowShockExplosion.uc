@@ -58,5 +58,5 @@ defaultproperties
      bAttenByLife=True
      bDynamicLight=True
      LifeSpan=2.000000
-     Skins(0)=FinalBlend'tk_RainbowShockRifle.RainbowShockRifle.RainbowShockExploDarkFB'
+     Skins(0)=FinalBlend'mm_RainbowShockRifle.RainbowShockRifle.RainbowShockExploDarkFB'
 }

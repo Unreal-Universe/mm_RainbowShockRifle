@@ -78,9 +78,9 @@ simulated function SpawnEffects()
 
 defaultproperties
 {
-     CoilClass=Class'tk_RainbowShockRifle.RainbowShockBeamCoil'
-     MuzFlashClass=Class'tk_RainbowShockRifle.RainbowShockMuzFlash'
-     MuzFlash3Class=Class'tk_RainbowShockRifle.RainbowShockMuzFlash3rd'
+     CoilClass=Class'mm_RainbowShockRifle.RainbowShockBeamCoil'
+     MuzFlashClass=Class'mm_RainbowShockRifle.RainbowShockMuzFlash'
+     MuzFlash3Class=Class'mm_RainbowShockRifle.RainbowShockMuzFlash3rd'
      mParticleType=PT_Beam
      mMaxParticles=3
      mLifeRange(0)=0.750000
@@ -92,7 +92,7 @@ defaultproperties
      RemoteRole=ROLE_SimulatedProxy
      NetPriority=3.000000
      LifeSpan=0.750000
-     Texture=Texture'tk_RainbowShockRifle.RainbowShockRifle.RainbowBeamTex'
-     Skins(0)=Texture'tk_RainbowShockRifle.RainbowShockRifle.RainbowBeamTex'
+     Texture=Texture'mm_RainbowShockRifle.RainbowShockRifle.RainbowBeamTex'
+     Skins(0)=Texture'mm_RainbowShockRifle.RainbowShockRifle.RainbowBeamTex'
      Style=STY_Additive
 }

@@ -19,6 +19,6 @@ defaultproperties
      mColorRange(0)=(B=80,G=100,R=80)
      mColorRange(1)=(B=120,G=100,R=120)
      LifeSpan=2.000000
-     Skins(0)=Texture'tk_RainbowShockRifle.RainbowShockRifle.RainbowSparkle'
+     Skins(0)=Texture'mm_RainbowShockRifle.RainbowShockRifle.RainbowSparkle'
      Style=STY_Translucent
 }

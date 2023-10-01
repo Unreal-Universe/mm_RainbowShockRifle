@@ -1,7 +1,7 @@
 class RainbowShockRifle extends tk_Weapon 
 	config(TKWeaponsClient);
 
-#EXEC OBJ LOAD FILE="Resources/tk_RainbowShockRifle_rc.u" PACKAGE="tk_RainbowShockRifle"
+#EXEC OBJ LOAD FILE="Resources/tk_RainbowShockRifle_rc.u" PACKAGE="mm_RainbowShockRifle"
 
 var RainbowShockProjectile ComboTarget;
 var bool			bRegisterTarget;
@@ -83,7 +83,7 @@ function float RangedAttackTime()
 	if ( B.CanComboMoving() )
 		return 0;
 
-	return FMin(2,0.3 + VSize(B.Enemy.Location - Instigator.Location)/Class'tk_RainbowShockRifle.RainbowShockProjectile'.default.Speed);
+	return FMin(2,0.3 + VSize(B.Enemy.Location - Instigator.Location)/Class'mm_RainbowShockRifle.RainbowShockProjectile'.default.Speed);
 }
 
 function float SuggestAttackStyle()
@@ -144,9 +144,9 @@ function byte BestMode()
 
 	EnemyDist = VSize(B.Enemy.Location - Instigator.Location);
 	if ( B.Skill > 5 )
-		MaxDist = 4 * Class'tk_RainbowShockRifle.RainbowShockProjectile'.default.Speed;
+		MaxDist = 4 * Class'mm_RainbowShockRifle.RainbowShockProjectile'.default.Speed;
 	else
-		MaxDist = 3 * Class'tk_RainbowShockRifle.RainbowShockProjectile'.default.Speed;
+		MaxDist = 3 * Class'mm_RainbowShockRifle.RainbowShockProjectile'.default.Speed;
 
 	if ( (EnemyDist > MaxDist) || (EnemyDist < 150) )
 	{
@@ -178,8 +178,8 @@ function byte BestMode()
 defaultproperties
 {
      EffectColor=(B=255,R=192,A=128)
-     FireModeClass(0)=Class'tk_RainbowShockRifle.RainbowShockBeamFire'
-     FireModeClass(1)=Class'tk_RainbowShockRifle.RainbowShockProjFire'
+     FireModeClass(0)=Class'mm_RainbowShockRifle.RainbowShockBeamFire'
+     FireModeClass(1)=Class'mm_RainbowShockRifle.RainbowShockProjFire'
      SelectAnim="Pickup"
      PutDownAnim="PutDown"
      SelectSound=Sound'WeaponSounds.ShockRifle.SwitchToShockRifle'
@@ -187,8 +187,8 @@ defaultproperties
      AIRating=0.630000
      CurrentRating=0.630000
      bNoAmmoInstances=False
-     AmmoClass(0)=Class'tk_RainbowShockRifle.RainbowShockAmmo'
-     AmmoClass(1)=Class'tk_RainbowShockRifle.RainbowShockAmmo'
+     AmmoClass(0)=Class'mm_RainbowShockRifle.RainbowShockAmmo'
+     AmmoClass(1)=Class'mm_RainbowShockRifle.RainbowShockAmmo'
      OldMesh=SkeletalMesh'Weapons.ShockRifle_1st'
      OldPickup="WeaponStaticMesh.ShockRiflePickup"
      OldCenteredOffsetY=-8.000000
@@ -210,12 +210,12 @@ defaultproperties
      CustomCrossHairScale=1.333000
      CustomCrossHairTextureName="Crosshairs.HUD.Crosshair_Cross2"
      InventoryGroup=6
-     PickupClass=Class'tk_RainbowShockRifle.RainbowShockRiflePickup'
+     PickupClass=Class'mm_RainbowShockRifle.RainbowShockRiflePickup'
      PlayerViewOffset=(X=4.000000,Y=8.000000,Z=-2.000000)
      PlayerViewPivot=(Pitch=-1000)
      BobDamping=1.800000
-     AttachmentClass=Class'tk_RainbowShockRifle.RainbowShockAttachment'
-     IconMaterial=Texture'tk_RainbowShockRifle.RainbowShockRifle.HUD'
+     AttachmentClass=Class'mm_RainbowShockRifle.RainbowShockAttachment'
+     IconMaterial=Texture'mm_RainbowShockRifle.RainbowShockRifle.HUD'
      IconCoords=(X1=250,Y1=110,X2=330,Y2=145)
      ItemName="Rainbow Shock Rifle"
      LightType=LT_Steady
@@ -228,5 +228,5 @@ defaultproperties
      Mesh=SkeletalMesh'NewWeapons2004.ShockRifle'
      DrawScale=0.700000
      Skins(0)=Texture'UT2004Weapons.NewWeaps.ShockRifleTex0'
-     Skins(1)=FinalBlend'tk_RainbowShockRifle.RainbowShockRifle.RainbowGooFb'
+     Skins(1)=FinalBlend'mm_RainbowShockRifle.RainbowShockRifle.RainbowGooFb'
 }

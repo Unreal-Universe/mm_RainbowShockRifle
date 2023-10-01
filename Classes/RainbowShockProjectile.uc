@@ -35,7 +35,7 @@ simulated function PostBeginPlay()
 
     if ( Level.NetMode != NM_DedicatedServer )
 	{
-        ShockBallEffect = Spawn(Class'tk_RainbowShockRifle.RainbowShockBall', self);
+        ShockBallEffect = Spawn(Class'mm_RainbowShockRifle.RainbowShockBall', self);
         ShockBallEffect.SetBase(self);
 	}
 
@@ -163,11 +163,11 @@ Simulated Function DoImpactEffects()
     PlaySound(ImpactSound, SLOT_Misc);
     if ( EffectIsRelevant(Location,false) )
     {
-    	Spawn(Class'tk_RainbowShockRifle.RainbowShockExplosionCore',,, Location);
+    	Spawn(Class'mm_RainbowShockRifle.RainbowShockExplosionCore',,, Location);
 	}
 	if(!Level.bDropDetail && (Level.DetailMode != DM_Low))
 	{
-	    Spawn(Class'tk_RainbowShockRifle.RainbowShockExplosion',,, Location);
+	    Spawn(Class'mm_RainbowShockRifle.RainbowShockExplosion',,, Location);
     }
 }
 
@@ -181,10 +181,10 @@ simulated function Explode(vector HitLocation,vector HitNormal)
    	PlaySound(ImpactSound, SLOT_Misc);
 	if ( EffectIsRelevant(Location,false) )
 	{
-	    Spawn(Class'tk_RainbowShockRifle.RainbowShockExplosionCore',,, Location);
+	    Spawn(Class'mm_RainbowShockRifle.RainbowShockExplosionCore',,, Location);
 		if ( !Level.bDropDetail && (Level.DetailMode != DM_Low) )
 		{
-			Spawn(Class'tk_RainbowShockRifle.RainbowShockExplosion',,, Location);
+			Spawn(Class'mm_RainbowShockRifle.RainbowShockExplosion',,, Location);
 		}
 	}
     SetCollisionSize(0.0, 0.0);
@@ -220,13 +220,13 @@ function SuperExplosion()
 
 	HurtRadius(ComboDamage, ComboRadius, class'DamTypeRainbowShockCombo', ComboMomentumTransfer, Location );
 
-	Spawn(Class'tk_RainbowShockRifle.RainbowShockCombo');
+	Spawn(Class'mm_RainbowShockRifle.RainbowShockCombo');
 	if ( (Level.NetMode != NM_DedicatedServer) && EffectIsRelevant(Location,false) )
 	{
 		HitActor = Trace(HitLocation, HitNormal,Location - Vect(0,0,120), Location,false);
 		if ( HitActor != None )
 		{
-			Spawn(Class'tk_RainbowShockRifle.RainbowComboDecal',self,,HitLocation, rotator(vect(0,0,-1)));
+			Spawn(Class'mm_RainbowShockRifle.RainbowComboDecal',self,,HitLocation, rotator(vect(0,0,-1)));
 		}
 	}
 	PlaySound(ComboSound, SLOT_None,1.0,,800);
@@ -278,7 +278,7 @@ defaultproperties
      ComboRadius=275.000000
      ComboMomentumTransfer=150000.000000
      ComboAmmoCost=2
-     ComboDamageType=Class'tk_RainbowShockRifle.DamTypeRainbowShockBeam'
+     ComboDamageType=Class'mm_RainbowShockRifle.DamTypeRainbowShockBeam'
      ReflectMaxNum=5
      DampeningFactor=0.150000
      Speed=1150.000000
@@ -287,9 +287,9 @@ defaultproperties
      Damage=20.000000
      DamageRadius=150.000000
      MomentumTransfer=70000.000000
-     MyDamageType=Class'tk_RainbowShockRifle.DamTypeRainbowShockBall'
+     MyDamageType=Class'mm_RainbowShockRifle.DamTypeRainbowShockBall'
      ImpactSound=Sound'WeaponSounds.ShockRifle.ShockRifleExplosion'
-     ExplosionDecal=Class'tk_RainbowShockRifle.RainbowShockImpactScorch'
+     ExplosionDecal=Class'mm_RainbowShockRifle.RainbowShockImpactScorch'
      MaxEffectDistance=7000.000000
      LightType=LT_Steady
      LightEffect=LE_QuadraticNonIncidence
@@ -304,9 +304,9 @@ defaultproperties
      bOnlyDirtyReplication=True
      AmbientSound=Sound'WeaponSounds.ShockRifle.ShockRifleProjectile'
      LifeSpan=30.000000
-     Texture=Texture'tk_RainbowShockRifle.RainbowShockRifle.RainbowNew_core_low'
+     Texture=Texture'mm_RainbowShockRifle.RainbowShockRifle.RainbowNew_core_low'
      DrawScale=0.700000
-     Skins(0)=Texture'tk_RainbowShockRifle.RainbowShockRifle.RainbowNew_core_low'
+     Skins(0)=Texture'mm_RainbowShockRifle.RainbowShockRifle.RainbowNew_core_low'
      Style=STY_Translucent
      FluidSurfaceShootStrengthMod=8.000000
      SoundVolume=50

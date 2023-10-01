@@ -26,12 +26,12 @@ defaultproperties
          MaxParticles=1
          StartSpinRange=(X=(Min=0.132000,Max=0.900000))
          StartSizeRange=(X=(Min=45.000000,Max=45.000000),Y=(Min=65.000000,Max=65.000000),Z=(Min=65.000000,Max=65.000000))
-         Texture=Texture'tk_RainbowShockRifle.RainbowShockRifle.RainbowNew_core_low'
+         Texture=Texture'mm_RainbowShockRifle.RainbowShockRifle.RainbowNew_core_low'
          LifetimeRange=(Min=0.350000,Max=0.350000)
          WarmupTicksPerSecond=20.000000
          RelativeWarmupTime=1.000000
      End Object
-     Emitters(0)=SpriteEmitter'tk_RainbowShockRifle.RainbowShockBall.SpriteEmitter0'
+     Emitters(0)=SpriteEmitter'mm_RainbowShockRifle.RainbowShockBall.SpriteEmitter0'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter1
          FadeOut=True
@@ -48,12 +48,12 @@ defaultproperties
          StartSpinRange=(X=(Min=0.154000,Max=0.913000))
          StartSizeRange=(X=(Min=60.000000,Max=60.000000))
          InitialParticlesPerSecond=2.000000
-         Texture=Texture'tk_RainbowShockRifle.RainbowShockRifle.RainbowFlare'
+         Texture=Texture'mm_RainbowShockRifle.RainbowShockRifle.RainbowFlare'
          LifetimeRange=(Min=0.400000,Max=0.400000)
          WarmupTicksPerSecond=20.000000
          RelativeWarmupTime=1.000000
      End Object
-     Emitters(1)=SpriteEmitter'tk_RainbowShockRifle.RainbowShockBall.SpriteEmitter1'
+     Emitters(1)=SpriteEmitter'mm_RainbowShockRifle.RainbowShockBall.SpriteEmitter1'
 
      Begin Object Class=SpriteEmitter Name=SpriteEmitter2
          FadeOut=True
@@ -67,14 +67,14 @@ defaultproperties
          MaxParticles=15
          DetailMode=DM_High
          StartSizeRange=(X=(Min=4.500000,Max=4.500000))
-         Texture=Texture'tk_RainbowShockRifle.RainbowShockRifle.RainbowCore'
+         Texture=Texture'mm_RainbowShockRifle.RainbowShockRifle.RainbowCore'
          LifetimeRange=(Min=0.350000,Max=0.350000)
          StartVelocityRange=(X=(Min=-70.000000,Max=70.000000),Y=(Min=-70.000000,Max=70.000000),Z=(Min=-70.000000,Max=70.000000))
          VelocityScale(0)=(RelativeTime=1.000000,RelativeVelocity=(X=-1.000000,Y=-1.000000,Z=-1.000000))
          WarmupTicksPerSecond=50.000000
          RelativeWarmupTime=1.000000
      End Object
-     Emitters(2)=SpriteEmitter'tk_RainbowShockRifle.RainbowShockBall.SpriteEmitter2'
+     Emitters(2)=SpriteEmitter'mm_RainbowShockRifle.RainbowShockBall.SpriteEmitter2'
 
      bNoDelete=False
 }

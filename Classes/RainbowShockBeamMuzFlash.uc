@@ -27,6 +27,6 @@ defaultproperties
      mGrowthRate=5.000000
      mAttenKa=0.000000
      mMeshNodes(0)=StaticMesh'WeaponStaticMesh.ShockMuzFlash'
-     Skins(0)=FinalBlend'tk_RainbowShockRifle.RainbowShockRifle.RainbowShockFlash'
+     Skins(0)=FinalBlend'mm_RainbowShockRifle.RainbowShockRifle.RainbowShockFlash'
      Style=STY_Additive
 }

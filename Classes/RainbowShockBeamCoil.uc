@@ -2,5 +2,5 @@ class RainbowShockBeamCoil extends ShockBeamCoil;
 
 defaultproperties
 {
-     Skins(0)=FinalBlend'tk_RainbowShockRifle.RainbowShockRifle.RainbowCoilFB'
+     Skins(0)=FinalBlend'mm_RainbowShockRifle.RainbowShockRifle.RainbowCoilFB'
 }
